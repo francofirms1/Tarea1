@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nacional"
+        android:enabled="true"
+        android:icon="@drawable/ic_flag_black_24dp"
+        android:title="Nacional"/>
+    <item
+        android:id="@+id/regional"
+        android:enabled="true"
+        android:icon="@drawable/ic_place_black_24dp"
+        android:title="Regional"/>
+    <item
+        android:id="@+id/busqueda"
+        android:enabled="true"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="Buscar"/>
+</menu>
