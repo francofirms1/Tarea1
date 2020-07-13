@@ -48,7 +48,7 @@ public class Menu extends AppCompatActivity {
                             break;
                     }
 
-                    getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
+                    getSupportFragmentManager().beginTransaction().setCustomAnimations(R.anim.enter_rigth_to_left,R.anim.enter_left_to_rigth).replace(R.id.fragment_container,
                             selectedFragment).commit();
                     return true;
                 }

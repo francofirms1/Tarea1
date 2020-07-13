@@ -63,8 +63,8 @@ public class NacionalFragment extends Fragment {
                     System.out.println("Response: " + respuesta);
                     reporte.setText(respuesta.getInfo());
                     fecha.setText(respuesta.getFecha());
-                    System.out.println("Acumulado total: -------------" + respuesta.getReporte().getAcum_total());
-                    acum_total.setText(String.valueOf(respuesta.getReporte().getAcum_total()));
+                    System.out.println("Acumulado total: -------------" + respuesta.getReporte().getAcumulado_total());
+                    acum_total.setText(String.valueOf(respuesta.getReporte().getAcumulado_total()));
                     casos_nuev_total.setText(String.valueOf(respuesta.getReporte().getCasos_nuevos()));
                     casos_nuev_csin.setText(String.valueOf(respuesta.getReporte().getCasos_nuevos_csin()));
                     casos_nuev_ssin.setText(String.valueOf(respuesta.getReporte().getCasos_nuevos_sin_sin()));
