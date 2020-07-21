@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CovidStatics</string>
+    <string name="app_name">CovidStadisticas</string>
     <string name="MainActLabel">Covid-19 Chile</string>
     <string name="Ver_Stats_Label">Ver Estadisticas</string>
 </resources>
