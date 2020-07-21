@@ -80,7 +80,7 @@ public class SearchFragment extends Fragment {
                        nombre.add(regiones.get(i).getNombre());
                     }
 
-                    adapter = new ArrayAdapter<>(getActivity(),android.R.layout.simple_spinner_item,nombre);
+                    adapter = new ArrayAdapter<>(getActivity(),android.R.layout.simple_spinner_dropdown_item,nombre);
 
                     adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
                     spiner.setAdapter(adapter);
